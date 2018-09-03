@@ -9,7 +9,7 @@ import (
 const DEFAULT_ADDR = "0.0.0.0:4443"
 
 func usage() {
-	fmt.Println("Usage: quicperf [-s [host] -F seed_file |-c host] [options]")
+	fmt.Println("Usage: quictest [-s [host] -F seed_file |-c host] [options]")
 }
 
 func main() {
